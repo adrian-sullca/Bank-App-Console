@@ -1,19 +1,23 @@
-BankApp is an application executable on the terminal with connection to a database, which will be responsible for managing transactions and 
-accounts for the different users who can register in the application. When registering a user, an account number is also created for this new user.
+# BankApp
+
+BankApp is a terminal-based executable application that connects to a database to manage transactions and accounts for different users registered in the application. This app allows users to perform account management and financial transactions easily and securely.
+
+## Features
 
 Registered users can perform the following actions:
 
--Open new bank accounts
+- **Open new bank accounts**: Users can open multiple accounts as needed.
+- **View their active bank accounts**: Displays a list of all the user's active accounts.
+- **Close an existing bank account**: Users can close accounts they no longer need.
+- **Perform financial transactions**:
+  - **Deposits**: Add funds to a specified account.
+  - **Withdrawals**: Withdraw funds from a specified account.
+  - **Transfers**: Transfer funds to another account by specifying the destination account number.
 
--View their active bank accounts
+## Setup Requirements
 
--Close an existing bank account
+Before starting and testing the application, make sure to create the `database.properties` file with the necessary database connection properties. An example file named `database.properties` is provided to guide you through the setup.
 
--Perform financial transactions including deposits, withdrawals, and transfers. For transfers, users will need to specify the target account 
-number where the funds will be transferred.
+---
 
-
-NOTE: Before starting and testing the application, make sure to create the database.properties file with your connection properties 
-(The file named database.properties.example is provided as an example).
-
-Created By adrian-sxa
+Created by **adrian-sullca**
